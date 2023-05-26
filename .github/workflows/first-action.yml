@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Print greeting
-        run: 
+        run: |
           echo "Hello world"
           echo "hi"
       - name: Print goodbye
